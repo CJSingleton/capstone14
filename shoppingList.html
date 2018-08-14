@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/somecode.js" async></script>
+</head>
+<body>
+
+    <h2>
+        Drinks:
+        <button onclick="addToList(menu[0], prices[0])">Water</button>
+        <button onclick="addToList(menu[1], prices[1])">Milk</button>
+        <button onclick="addToList(menu[2], prices[2])">Juice</button>
+    </h2>
+    <h2>
+        Snacks:
+        <button onclick="addToList(menu[3], prices[3])">Chips</button>
+        <button onclick="addToList(menu[4], prices[4])">Cookies</button>
+        <button onclick="addToList(menu[5], prices[5])">Fruit</button>
+    </h2>
+    <p></p>
+
+    <table border="1" width="250" id="shoppingList">
+        <tr>
+            <th>Item Name</th>
+            <th>Price</th>
+        </tr>
+    </table>
+
+    <p></p>
+    
+    <button onclick=checkOut()>Checkout</button>
+    
+    <p></p>
+    
+    <table border="0" width="400" id="checkout">
+        <tr class="checkoutlist"></tr>
+    </table>
+    
+
+</body>
+</html>
